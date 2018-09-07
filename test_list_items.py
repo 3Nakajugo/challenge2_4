@@ -9,6 +9,7 @@ class test_items(unittest.TestCase):
 
     def test_list(self):
         self.assertRaises(TypeError,add_items,True)
-    
-    # def test_int(self):
-    #     self.assertRaises(ValueError,add_items,[])
+        
+    @unittest.skip('test for value')
+    def test_int(self):
+        self.assertRaises(ValueError,add_items,'a')
