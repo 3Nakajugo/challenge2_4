@@ -6,7 +6,6 @@ def add_items(a):
         return ('no value')
     else:
         for i in a:
-        
             if isinstance(i,int):
                 count += i
             elif isinstance(i,list):
@@ -15,4 +14,4 @@ def add_items(a):
                 pass
         return count
 
-print(add_items([1,2,3,[3],[1,3]]))
+print(add_items(['a','b',3,[3],[1,3]]))

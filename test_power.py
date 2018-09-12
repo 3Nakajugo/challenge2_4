@@ -9,6 +9,7 @@ class test_calc(unittest.TestCase):
 
     def test_type_input(self):
         self.assertEqual(power(8,'a'),'invalid type for opperand')
+    
 
 
 if __name__ == '__main__':
